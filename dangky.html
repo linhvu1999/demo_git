@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng ký</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/script.js"/></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- 1.header -->
+		<div class="heading">
+			<h1>
+				Coffee House
+			</h1>
+		</div>
+		<!-- end header -->
+
+		<!-- 2.main -->
+		<div class="form">
+			<div id="error" style="color: black"></div>
+			<div id="result" style="color: green"></div>
+			<div class="main-menu">
+				<ul>
+					<li>
+						<a href="index.html">Trang chủ</a>
+					</li>
+					<li class="active">
+						<a href="dangky.html">Đăng ký</a>
+					</li>
+					<li>
+						<a href="dangnhap.html">Đăng nhập</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content">
+				<form onsubmit="return handleSubmit()">
+		<table cellpadding="4">
+			<h1>Đăng ký</h1>
+			<tr>
+				<td>
+					Name<span class="red">*</span>
+				</td>
+				<td>
+					<input type="text" id="name" value="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email<span class="red">*</span>
+				</td>
+				<td>
+					<input type="email" id="email" value="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Password<span class="red">*</span>
+				</td>
+				<td>
+					<input type="password" id="password" value="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Gender<span class="red">*</span>
+				</td>
+				<td>
+					<input type="radio" id="gender_male" value="1">Male
+					<input type="radio" id="gender_female" value="2">Female
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Color<span class="red">*</span>
+				</td>
+				<td>
+					<input type="checkbox" id="color_red" value="1">Red
+					<input type="checkbox" id="color_green" value="2">Green
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Country<span class="red">*</span>
+				</td>
+				<td>
+					<select id="country">
+						<option value="-1">--Please select --</option>
+						<option value="1">VietNam</option>
+						<option value="2">Singapore</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					
+				</td>
+				<td>
+					<input type="submit" name="" value="REGISTER">
+					<input type="reset" name="" value="CLEAN">
+				</td>
+			</tr>
+		</table>
+	</form>
+				
+			</div>
+		</div>
+		<!-- end main -->
+
+		<!-- 3.footer -->
+		<div class="heading">
+			<div class="footer">
+				<p>Coffee Hose @ 2013 |</p>
+			</div>
+		</div>
+		<!-- end footer -->
+	</div>
+</body>
+</html>
